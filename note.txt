@@ -1,0 +1,6 @@
+Responsive tablet => ok
+Responsive mobile chỉnh sửa:
++ Sản phẩm -> chuyển các project thành list và gộp lại thành nhóm
++ Thông tin chuyển sao cho dễ nhìn
++ Header chuyển sang dạng menu
++ footer thành hàng dọc hoặc để ngang nếu nhìn gọn
