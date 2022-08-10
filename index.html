@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/img/logo/I&E-favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -17,13 +18,18 @@
         <div class="slider"></div>
         <header class="header">
             <div class="logo-side">
-                <a href="#" class="logo">I&E</a>
+                <a href="#" class="logo">
+                    <img src="./assets/img/logo/I&E-logo.png" alt="">
+                </a>
             </div>
             <div class="nav">
                 <a href="#intro" class="intro-link">Giới thiệu</a>
                 <a href="#pj" class="project-link">Sản phẩm</a>
                 <a href="#about" class="about-link">Thông tin</a>
 
+            </div>
+            <div class="nav-btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </header>
 
@@ -57,12 +63,10 @@
                 </i>
                 <p class="describe">Đây là sản phẩm của tôi</p>
                 <div class="content-project">
-
                     <div class="item">
                         <div class="item-img">
                             <a href="https://nnewbiedev.github.io/TheBandTemplate/">
-                                <img src="./assets/img/Screenshot from 2022-07-23 11-03-06.png" alt=""
-                                    class="img-project">
+                                <img src="./assets/img/TheBandScreenshot.png" alt="" class="img-project">
                             </a>
                         </div>
                         <div class="item-content">
@@ -77,7 +81,37 @@
                                     Go to the website
                                 </a>
                             </div>
+                        </div>
+                    </div>
 
+                    <div class="item">
+                        <div class="item-img">
+                            <a href="https://nnewbiedev.github.io/TheBandTemplate/">
+                                <img src="./assets/img/TravelTemplateScreenshot.png" alt="" class="img-project">
+                            </a>
+                        </div>
+                        <div class="item-content">
+                            <div class="item-content__describe content">
+                                Tôi đã thực hiện website này trong một lần học khóa học trên Internet (dựa trên Template
+                                của W3Schools). Đây là một website cơ bản được làm nên bằng HTML, CSS và kèm một chút
+                                Javascript nữa. Nó còn đánh dấu lần đầu tiên khi tôi biết khái niệm Responsive.
+                            </div>
+
+                            <div class="item-content__btn">
+                                <a href="https://nnewbiedev.github.io/TheBandTemplate/" class="goto">
+                                    Go to the website
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- project mobile -->
+                <div class="content-project__mobile">
+                    <div class="layer">
+                        <div class="content-project__image">
+                            <img src="./assets/img/TheBandScreenshot.png" alt="">
+                            <img src="./assets/img/TravelTemplateScreenshot.png" alt="">
                         </div>
                     </div>
 
@@ -102,33 +136,48 @@
                         <div class="slides">
 
                             <div class="slider-item">
-                                <div class="slider-item__title" style="color:#FF9F29 ;" >
+                                <div class="slider-item__title" style="color:#FF9F29 ;">
                                     HTML
                                 </div>
-                                <div class="slider-item__content">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum veniam numquam sed, officia impedit iure alias corrupti delectus voluptate dolorem totam consectetur aspernatur quisquam sapiente repellendus doloremque necessitatibus nostrum quia.
+                                <div class="slider-item__content ">
+                                    <p class="content">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum veniam numquam
+                                        sed, officia impedit iure alias corrupti delectus voluptate dolorem totam
+                                        consectetur aspernatur quisquam sapiente repellendus doloremque necessitatibus
+                                        nostrum quia.
+                                    </p>
+                                    <i class="fa-brands fa-html5 icon-fe"></i>
                                 </div>
-                                <i class="fa-brands fa-html5 icon-fe"></i>
                             </div>
-    
-                            <div class="slider-item" >
+
+                            <div class="slider-item">
                                 <div class="slider-item__title" style="color: #0096FF;">
                                     CSS
                                 </div>
-                                <div class="slider-item__content">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum veniam numquam sed, officia impedit iure alias corrupti delectus voluptate dolorem totam consectetur aspernatur quisquam sapiente repellendus doloremque necessitatibus nostrum quia.
+                                <div class="slider-item__content ">
+                                    <p class="content">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum veniam numquam
+                                        sed, officia impedit iure alias corrupti delectus voluptate dolorem totam
+                                        consectetur aspernatur quisquam sapiente repellendus doloremque necessitatibus
+                                        nostrum quia.
+                                    </p>
+                                    <i class="fa-brands fa-css3-alt icon-fe"></i>
                                 </div>
-                                <i class="fa-brands fa-css3-alt icon-fe"></i>
                             </div>
-    
+
                             <div class="slider-item">
                                 <div class="slider-item__title" style="color:#FFEA11;">
                                     JAVASCRIPT
                                 </div>
-                                <div class="slider-item__content">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum veniam numquam sed, officia impedit iure alias corrupti delectus voluptate dolorem totam consectetur aspernatur quisquam sapiente repellendus doloremque necessitatibus nostrum quia.
+                                <div class="slider-item__content ">
+                                    <p class="content">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum veniam numquam
+                                        sed, officia impedit iure alias corrupti delectus voluptate dolorem totam
+                                        consectetur aspernatur quisquam sapiente repellendus doloremque necessitatibus
+                                        nostrum quia.
+                                    </p>
+                                    <i class="fa-brands fa-js-square icon-fe"></i>
                                 </div>
-                                <i class="fa-brands fa-js-square icon-fe"></i>
                             </div>
                         </div>
 
@@ -154,7 +203,7 @@
                 <a href="#pj" class="footer-intro__item">The Band Template</a>
             </div>
 
-            <div class="media">
+            <div class="footer-media">
                 <h2 class="footer-title">
                     Liên Kết
                 </h2>
